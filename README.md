@@ -1,6 +1,7 @@
 # movietopics
 
-Summary
+Summary:
+
 This is an Python program devised to collect the user's movies in a local database and share information with an internet database.
 
 The local database is created with SQLite, a serverless db, and contains generic data about the movie, retrived from http://omdbapi.com via the urllib module. The search is conducted looking for titles specified by the user in a file or reading file and folder names in a directory. The local database also contains a table of key-based reviews of the movies (to each movie the user can assing an integer value to 15 keys, which serves to characterize the macroscopic contents and style of the movie). Entries in this table are inserted via command line.
